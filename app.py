@@ -114,7 +114,7 @@ def main():
             )
 
             # Display the cover image
-            st.image(predicted_condition_image, use_column_width = True, caption = 'Predicted Weather Condition')
+            st.image(predicted_condition_image, use_container_width = True, caption = 'Predicted Weather Condition')
 
         except FileNotFoundError:
             st.error('Model or scaler file not found. Make sure to save both the model and scaler first.')
