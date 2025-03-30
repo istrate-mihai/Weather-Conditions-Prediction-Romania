@@ -21,7 +21,7 @@ def main():
     ]
 
     # Display the cover image
-    st.image('./assets/images/dataset-cover.jpg', use_column_width = True, caption = 'Weather Prediction for Romanian Cities')
+    st.image('./assets/images/dataset-cover.jpg', use_container_width = True, caption = 'Weather Prediction for Romanian Cities')
 
     # Title and description
     st.title('Weather Condition Predictor')
