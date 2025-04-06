@@ -7,4 +7,4 @@ algorithm from data registered in weather stations across Romania during the yea
 
 ![Project Cover](assets/images/weather-prediction-romania.png)
 
-## Project Link: [Weather-Conditions-Prediction-Romania](https://github.com/istrate-mihai/Weather-Conditions-Prediction-Romania)
+## Project Link: [Weather-Conditions-Prediction-Romania](https://istrate-mihai-weather-conditions-prediction-romania-app-30ordz.streamlit.app/)

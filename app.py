@@ -21,7 +21,7 @@ def main():
     ]
 
     # Display the cover image
-    st.image('./assets/images/dataset-cover.jpg', use_container_width = True, caption = 'Weather Prediction for Romanian Cities')
+    st.image('./assets/images/dataset-cover.jpg', caption = 'Weather Prediction for Romanian Cities')
 
     # Title and description
     st.title('Weather Condition Predictor')
@@ -114,7 +114,7 @@ def main():
             )
 
             # Display the cover image
-            st.image(predicted_condition_image, use_container_width = True, caption = 'Predicted Weather Condition')
+            st.image(predicted_condition_image, caption = 'Predicted Weather Condition')
 
         except FileNotFoundError:
             st.error('Model or scaler file not found. Make sure to save both the model and scaler first.')
